@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
